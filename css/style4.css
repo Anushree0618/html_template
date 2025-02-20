@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width:80%;
+    min-height: 100px;
+    /* border: 1px solid #000; */
+    margin: auto;
+}
+
+.main header div{
+    width: 100%;
+    height: 60px;
+}
+.main header div .logo{
+    width: 55%;
+    height: 60px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.main header div .menu{
+    width: 50%;
+    height: 60px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.logo{
+    width: 46%;
+    height:60px;
+    background-color:#312F16;
+    float: left;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.logo h1{
+    margin-top: 10px;
+    margin-left: 70px;
+    color:white;
+}
+
+.menu{
+    padding: 13px;
+    width: 53%;
+    height:60px;
+    background-color:#312F16;
+    float: right;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+ 
+
+.menu a{ 
+    margin-left: 20px;
+    padding: 20px;
+    color: white; 
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background-color:grey ;
+}
+
+.slider img{
+    width: 100%;
+    height: 650px;
+    margin-top: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.main-con{
+    width: 100%;
+    height: 450px;
+}
+
+.sidebar button{
+         padding: 15px;
+         
+}
+
+.sidebar button{
+    background-color: #937A38;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.main-con .sidebar{
+    width: 20%;
+    min-height: 435px;
+    background-color: #8D7575;
+    float: left;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.main-con .box{
+    width: 78%;
+    min-height: 435px;
+    float: right;
+    background-color: #DAD3CC;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: #A00D0E;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+   

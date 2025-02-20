@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+            box-sizing: border-box;
+        }
+        .box{
+                 width: 80%;
+                 min-height: 100px;
+                 margin: auto;
+                 border: 1px solid black;
+                 display: grid;
+                 grid-template-columns: repeat(3,1fr);/* repeat for 3 columns 1fr means (for each column fraction)*/
+                 grid-template-rows:  100px 50px 300px 400px 50px;
+                 grid-auto-rows: 100px;
+                 /* grid-row-gap: 10px;
+                 grid-column-gap: 10px; */
+                grid-gap: 10px;
+  
+        }
+        .item1{
+                background-color:rgb(63, 201, 232);
+                color: black;
+                display: flex;                                      /*heading*/
+                justify-content: start;  /* content will come to start means heading or box it may me*/
+                align-items: center;
+                grid-column: 1 / -1; /* this column will come to 1 in row(whole row it will take) position of 3 that we have putted in (repeat(3,1fr)) means out of
+                3column box it will goto whole row postion*/
+              }
+
+        .item2
+               {
+                 background-color:rgb(244, 107, 130);
+                 color: black;
+                 background-color: peru;
+                 color: white;                                        /*box2*/
+                 display: flex;
+                 justify-content:center;  /* content will come to start means heading or box it may me*/
+                 align-items: center;
+                 grid-column: 1 / -1; /* this column will come to 1 in row(whole row it will take) position of 3 that we have putted in (repeat(3,1fr)) means out of
+                 3column box it will goto whole row postion*/
+               }
+
+         .item3{
+                background-color: rgb(113, 183, 9);
+                color: black;
+                display: flex;                                             /*box3*/
+                justify-content: center;                                     
+                align-items: center;
+                grid-column: 1 / -1;  /* this column will come to 1 in row(whole row it will take) position of 3 that we have putted in (repeat(3,1fr)) means out of
+                3column box it will goto whole row postion*/
+               }
+
+         .item4{
+                background-color: rgb(16, 91, 16);
+                color: black;
+                display: flex;                                                 /*box4*/
+                justify-content: center;
+                align-items: center;
+                /*grid-column: 1 / -1;     we have not taken it here bcoz it should applay to 1st postion only
+                                          takla nhi tr brobr 1st position gheta column cha 3 column peki   */
+            }
+        .item5{
+                background-color: red;
+                color: black;                                                  /*box5*/
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                grid-column: 2/ -1;/* this column will come to 2nd and 3rd position of 3 that we have putted in (repeat(3,1fr)) means out of
+                                               3column box it will goto 2nd and 3rd   postion*/
+               }
+        .item6{
+                background-color: rgb(22, 22, 137);
+                color: black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                grid-column: 1 / -1;
+               }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="item1">
+        <h1>Company Name</h1>
+        </div>
+        <div class="item2">Box2</div>
+        <div class="item3">Box3</div>
+        <div class="item4">Box4</div>
+        <div class="item5">Box5</div>
+        <div class="item6">Box6</div>
+        </div>
+</body>
+</html>

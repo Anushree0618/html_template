@@ -1,0 +1,81 @@
+/* class selector*/
+
+/*.a{
+    background-color: brown;
+} */
+
+
+/*id selector*/
+
+/*#b{
+    background-color: cadetblue;
+}
+
+#c{
+    background-color: bisque;
+} */
+
+
+
+/*element selector*/
+
+/*h1{
+    background-color: brown;
+}
+
+p{
+    background-color: cadetblue;
+}*/
+
+
+
+/* grouping selector*/
+
+/*p,div{
+    background-color: grey;
+}*/
+
+
+
+/* universal selector*/
+/*
+*{
+    background-color: darkviolet;
+    color: azure;
+}
+*/
+
+/*global selector*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+/* div{
+    width: 100%;
+    height: 20vh;
+    background-color: red;
+}
+.dv{
+    background-color: black;
+}
+#dv1{
+    background-color: aqua;
+} */
